@@ -8,4 +8,8 @@ int main(){
    
     bool decision2 = false;
     cout<<decision2;
+
+
+    double a = 25.123456;
+    cout<<a;
 }
