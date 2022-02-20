@@ -4,11 +4,11 @@ using namespace std;
 int main()
 {
     int sum, sub, prod;
-    double divv;
-    int a = 20;
-    int b = 30;
+    int divv;
+    int a = 50;
+    int b = 20;
     sum = a + b;
-    sub = b - a;
+    sub = a - b;
     prod  = a * b;
     divv = a/b;
 
