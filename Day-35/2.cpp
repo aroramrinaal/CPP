@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int sum, sub, prod;
-    int divv;
+    double divv;
     int a = 50;
     int b = 20;
     sum = a + b;
