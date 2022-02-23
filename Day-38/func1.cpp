@@ -15,6 +15,6 @@ int max(int x , int y){
 int main()
 {
     /* code */
-    
+    cout<<max(3,4)<<endl;
     return 0;
 }
