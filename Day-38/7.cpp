@@ -10,6 +10,5 @@ int main()
         cout<<"meow\n";
         counter += 1;
     }
-    
     return 0;
 }
