@@ -8,7 +8,7 @@ int main()
     {
         /* code */
         cout<<"meow\n";
-        counter += 1;
+        counter++;
     }
     return 0;
 }
