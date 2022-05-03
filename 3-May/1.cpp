@@ -1,36 +1,30 @@
 #include<iostream>
 using namespace std;
 
-
-class Myclass
+class MyClass
 {
     public:
     void myFunction(){
-        cout<<"Content Defined Under Parent Class";
+        cout << "Some content in parent class.\n" ;
     }
 };
 
-class Mychild : public Myclass
+class MyOtherClass 
 {
-
+    public:
+    void myOtherFunction(){
+        cout << "Some content in other class." ;
+    }
 };
 
 
-class MyGrandChild : public Mychild
-{
-
-};
-
-class inheritedclassofsubclass : public MyGrandChild
-{
-
-};
-
+class MyChildClass : public MyClass,public MyOtherClass{};
 
 int main()
 {
     /* code */
-    inheritedclassofsubclass myobj1;
-    myobj1.myFunction();
+    MyChildClass obj1;
+    obj1.myFunction();
+    obj1.myOtherFunction();
     return 0;
 }
