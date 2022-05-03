@@ -7,24 +7,28 @@
 #include<iostream>
 using namespace std;
 
-
-
 class Vehicle
 {
     public:
-    void whatIsThis(){
-        cout<<"This is a Vehicle."<<endl;
+    Vehicle(){
+        cout<<"this is a vehicle."<<endl;
+    }
+};
+
+class FourWheeler
+{
+    public:
+    FourWheeler(){
+        cout<<"this is a fourwheeler."<<endl;
     }
 };
 
 
-class Car : public Vehicle
+class Car :public Vehicle,public FourWheeler
 {};
 
 int main()
 {
     /* code */
-    Car obj1;
-    obj1.whatIsThis();
-    return 0;
+
 }
