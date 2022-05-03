@@ -5,6 +5,6 @@ class Vehicle
 {
     public:
     void honk(){
-        
+        cout<<""<<endl;
     }
 };
