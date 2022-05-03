@@ -19,7 +19,7 @@ class A
 };
 
 
-class B :protected A
+class B :public A
 {
     // x is public
     // y is protected
