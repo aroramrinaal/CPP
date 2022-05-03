@@ -10,7 +10,7 @@ using namespace std;
 class Vehicle
 {
     public:
-    Vehicle(){
+    void vehicle(){
         cout<<"this is a vehicle."<<endl;
     }
 };
@@ -18,7 +18,7 @@ class Vehicle
 class FourWheeler
 {
     public:
-    FourWheeler(){
+    void fourWheeler(){
         cout<<"this is a fourwheeler."<<endl;
     }
 };
@@ -30,5 +30,7 @@ class Car :public Vehicle,public FourWheeler
 int main()
 {
     /* code */
-
+    Car obj;
+    obj.fourWheeler();
+    obj.vehicle();
 }
