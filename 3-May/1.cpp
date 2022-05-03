@@ -19,7 +19,7 @@ class A
 };
 
 
-class B :public A
+class B :protected A
 {
     // x is public
     // y is protected
@@ -28,5 +28,5 @@ class B :public A
 
 int main(){
     B obj1;
-    obj1.x;
+    obj1.printmyName();
 }
