@@ -13,13 +13,20 @@ class A
     protected:
     int y;
     private:
-    int z;
+    void printmyName(){
+        cout<<"Mrinaal"<<endl;
+    }
 };
 
 
-class B :public A
-{};
+class B :protected A
+{
+    // x is public
+    // y is protected
+    // z is private
+};
 
 int main(){
-    
+    B obj1;
+    obj1.x;
 }
