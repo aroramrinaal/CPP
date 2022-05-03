@@ -1,21 +1,21 @@
 #include<iostream>
 using namespace std;
 
-class Parent
+class Vehicle
 {
     public:
-    int id_p;
+    Vehicle()
+    {
+      cout << "This is a Vehicle\n";
+    }
+};
 };
 
-
-class Child : public Parent
+class Car : public Vehicle
 {
-    public:
-    int id_c;
+
 };
 
 int main(){
-    Child obj1;
-    obj1.id_c=7;
-    obj1.id_p=91;
+
 }
