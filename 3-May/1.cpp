@@ -4,5 +4,7 @@ using namespace std;
 class Vehicle
 {
     public:
-    
+    void honk(){
+        
+    }
 };
