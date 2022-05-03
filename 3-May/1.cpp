@@ -6,9 +6,11 @@ using namespace std;
 class Vehicle
 {
     public:
-    string companyName;
-    void honkSound(){
-        cout<<"Tuu,Tuuu,Tu"<<endl;
+    void fuelAmount(){
+        cout<<"What's the maximum fuel that can be added to this Vehicle."<<endl;
+    }
+    void capacity(){
+        cout<<"What's the maximum capacity of this vehicle?"<<endl;
     }
 };
 
