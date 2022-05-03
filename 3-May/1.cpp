@@ -6,26 +6,20 @@
 #include<iostream>
 using namespace std;
 
-
-class Vehicle
+class A
 {
     public:
-    void fuel(){}
-    void brakes(){}
+    int x;
+    protected:
+    int y;
+    private:
+    int z;
 };
 
-class Car:public Vehicle
+
+class B :public A
 {};
 
-
-class Bike : public Vehicle
-{};
-int main()
-{
-    /* code */
-
-    Car obj1;
-    Bike obj2;
-    obj1.
-    return 0;
+int main(){
+    
 }
