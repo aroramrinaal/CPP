@@ -7,24 +7,25 @@
 using namespace std;
 
 
-class Car
+class Vehicle
 {
     public:
-    void fuel(){
-
-    }
+    void fuel(){}
+    void brakes(){}
 };
 
+class Car:public Vehicle
+{};
 
-class Bike
-{
-    public:
-    void fuel(){
-        
-    }
-};
+
+class Bike : public Vehicle
+{};
 int main()
 {
     /* code */
+
+    Car obj1;
+    Bike obj2;
+    obj1.
     return 0;
 }
