@@ -2,23 +2,32 @@
 using namespace std;
 
 
-class Geeks 
+class Vehicle
 {
     public:
-    string geekname;
-
-    void printname(){
-        cout<<"Geekname is : "<<geekname;
+    string brand;
+    void honk(){
+        cout<<"Tuut, tuut! \n";
     }
 };
 
-
+class Car : public Vehicle
+{
+    public:
+    string model;
+    void printSpecialProperty(){
+        cout<<"4 Wheeler\n";
+    }
+};
 
 int main()
 {
     /* code */
-    Geeks obj1;
-    obj1.geekname = "Mrinaal";
-    obj1.printname();
+    Car mycar;
+    mycar.honk();
+    mycar.brand = "Ford";
+    mycar.model = "Mustang";
+    cout<<"Brand of my car is: "<<mycar.brand<<"\n";
+    cout<<"Model of my car is: "<<mycar.model<<"\n";
     return 0;
 }
