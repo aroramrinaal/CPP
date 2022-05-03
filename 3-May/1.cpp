@@ -4,8 +4,23 @@ using namespace std;
 class Vehicle
 {
     public:
-    void honk(){
+    string companyName;
+    void honkSound(){
         cout<<"Tuu,Tuuu,Tu"<<endl;
-        
     }
 };
+
+
+class Car : public Vehicle
+{};
+
+class Bus : public Vehicle
+{};
+
+class Truck : public Vehicle
+{};
+
+int main(){
+    
+    return 0;
+}
