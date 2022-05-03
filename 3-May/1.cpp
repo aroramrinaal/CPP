@@ -1,30 +1,21 @@
 #include<iostream>
 using namespace std;
 
-class MyClass
+class Parent
 {
     public:
-    void myFunction(){
-        cout << "Some content in parent class.\n" ;
-    }
-};
-
-class MyOtherClass 
-{
-    public:
-    void myOtherFunction(){
-        cout << "Some content in other class." ;
-    }
+    int id_p;
 };
 
 
-class MyChildClass : public MyClass,public MyOtherClass{};
-
-int main()
+class Child : public Parent
 {
-    /* code */
-    MyChildClass obj1;
-    obj1.myFunction();
-    obj1.myOtherFunction();
-    return 0;
+    public:
+    int id_c;
+};
+
+int main(){
+    Child obj1;
+    obj1.id_c=7;
+    obj1.id_p=91;
 }
