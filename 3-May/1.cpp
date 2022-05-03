@@ -1,29 +1,24 @@
 #include<iostream>
 using namespace std;
 
-class Vehicle
+
+class Geeks 
 {
     public:
-    Vehicle(){
-        cout<<"This is a vehicle.\n";
+    string geekname;
+
+    void printname(){
+        cout<<"Geekname is : "<<geekname;
     }
 };
 
 
-class Car : public Vehicle
+
+int main()
 {
-
-};
-
-
-class Bus : public Vehicle
-{
-
-};
-
-
-int main(){
-    Car obj1;
-    Bus obj2;
+    /* code */
+    Geeks obj1;
+    obj1.geekname = "Mrinaal";
+    obj1.printname();
     return 0;
 }
