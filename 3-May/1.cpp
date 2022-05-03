@@ -6,13 +6,7 @@
 
 #include<iostream>
 using namespace std;
-int main()
-{
-    /* code */
-    Car obj1;
-    obj1.
-    return 0;
-}
+
 
 
 class Vehicle
@@ -27,3 +21,10 @@ class Vehicle
 class Car : public Vehicle
 {};
 
+int main()
+{
+    /* code */
+    Car obj1;
+    obj1.whatIsThis();
+    return 0;
+}
