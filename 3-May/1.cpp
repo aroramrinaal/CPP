@@ -26,5 +26,7 @@ class Car : public Vehicle
 int main()
 {
     /* code */
+    Car obj1;
+    obj1.
     return 0;
 }
