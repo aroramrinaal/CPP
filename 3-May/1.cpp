@@ -11,7 +11,9 @@ class Person
     private:
     int passcode;
     public:
-    
+    void hello(){
+        cout<<passcode;
+    }
 };
 
 
@@ -24,7 +26,8 @@ class Employee : public Person
 int main()
 {
     /* code */
-    Employee myEmployee;
-    myEmployee.passcode;
+    Person myobj;
+    myobj.hello();
+    // myEmployee.passcode;
     return 0;
 }
