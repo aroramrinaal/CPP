@@ -11,6 +11,7 @@ class Baseclass
     protected:
     void hiddencontent(){
         cout<<"This is hidden content"<<endl;
+        
     }
     private:
     void thisistopsecret(){
@@ -26,6 +27,7 @@ class DerivedClass:public Baseclass
     }
     void checker(){
         hiddencontent();
+        
     }
 };
 
