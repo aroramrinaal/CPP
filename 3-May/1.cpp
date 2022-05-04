@@ -19,6 +19,7 @@ class Person
 
 class Employee : public Person
 {
+    
 
 };
 
