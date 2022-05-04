@@ -10,5 +10,7 @@ class Auto_mobile
 
 class Car : public Auto_mobile
 {
-    
+
 };
+
+
