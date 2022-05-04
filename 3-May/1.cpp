@@ -2,31 +2,28 @@
 using namespace std;
 
 
-class Vehicle
+class Baseclass
 {
-    private:
-    int rc_no;
     public:
-    string company;
-    void getinfo(){
-        cout<<"Enter rcno."<<endl;
-        cin>>rc_no;
-    }
-    void displayinfo(){
-        cout<<"Registration Number is: "<<rc_no;
+    void display(){
+        cout<<"This display is inside the base class."<<endl;
     }
 };
 
-class Car : public Vehicle
+class DerivedClass:public Baseclass
 {
     public:
-    string modelname;
+    void show(){
+        cout<<"This show is inside the second class which is derived from parent class" << endl;
+    }
 };
 
 int main()
 {
     /* code */
-    Car obj1;
-    obj1.
+    Baseclass obj1;
+    DerivedClass obj2;
+    obj2.display();
+    obj2.show();
     return 0;
 }
