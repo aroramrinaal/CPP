@@ -1,32 +1,23 @@
 #include<iostream>
 using namespace std;
 
-class MyClass
+class Animal
 {
     public:
-    void myFuction(){
-        cout<<"Some content in Myclass"<<endl;
+    void eat(){
+        cout<<"Animals eat()";
+    }
+    void sleep(){
+        cout<<"Animals sleep()";
     }
 };
 
+class Dog: public Animal
+{};
 
-class MyOtherClass
-{
-    public:
-    void myOtherFuction(){
-        cout<<"Some content in MyOtherClass"<<endl;
-    }
-};
-
-class MyChildClass : public MyClass , public MyOtherClass
-{
-
-};
 
 int main()
 {
     /* code */
-    MyChildClass obj1;
-    obj1.myFuction();
-    return 0;
+
 }
