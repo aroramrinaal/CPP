@@ -1,17 +1,14 @@
 #include<iostream>
 using namespace std;
 
-class Vehicle
+class Auto_mobile
 {
     public:
     
 };
 
-class Car : public Vehicle
-{};
 
-int main()
+class Car : public Auto_mobile
 {
-    /* code */
-    return 0;
-}
+    
+};
