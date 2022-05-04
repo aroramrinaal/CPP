@@ -22,7 +22,6 @@ class Employee : public Person
 int main()
 {
     /* code */
-    Employee objEmp;
-    objEmp.
+
     return 0;
 }
