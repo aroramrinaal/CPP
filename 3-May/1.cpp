@@ -1,16 +1,28 @@
 #include<iostream>
 using namespace std;
 
-class Auto_mobile
+class Person
 {
     public:
-    
+    string name;
+    int age;
+    protected:
+    int regno;
+    private:
+    int passcode;
 };
 
 
-class Car : public Auto_mobile
+class Employee : public Person
 {
 
 };
 
 
+int main()
+{
+    /* code */
+    Employee objEmp;
+    objEmp.
+    return 0;
+}
