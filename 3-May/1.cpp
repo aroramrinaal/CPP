@@ -10,6 +10,8 @@ class Person
     int regno;
     private:
     int passcode;
+    public:
+    
 };
 
 
@@ -22,6 +24,7 @@ class Employee : public Person
 int main()
 {
     /* code */
-
+    Employee myEmployee;
+    myEmployee.passcode;
     return 0;
 }
