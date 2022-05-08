@@ -33,8 +33,10 @@ class Employee : public Person
 int main()
 {
     /* code */
-    Employee obj1;
-    obj1.employeeName();
+    Person obj1;
+    obj1.getData();
+    // Employee obj2;
+    // obj2.employeeName();
     return 0;
 }
 
