@@ -4,6 +4,11 @@
 using namespace std;
 
 
+class Auto_Mobile
+{
+    public:
+    
+};
 int main()
 {
     /* code */
