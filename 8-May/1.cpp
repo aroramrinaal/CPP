@@ -7,12 +7,12 @@ class Student
 {
     public:
     string name;
-    char grade;
+    string grade;
     void getName(){
         cout<<name;
     }
     void printGrade(){
-        
+        cout<<grade;
     }
 };
 
@@ -20,7 +20,9 @@ class Student
 int main()
 {
     /* code */
-    
+    Student obj1;
+    obj1.grade = "A";
+    obj1.printGrade();
     return 0;
 }
 
