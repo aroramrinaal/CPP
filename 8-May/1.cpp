@@ -5,6 +5,9 @@ using namespace std;
 
 class Student
 {
+    public:
+    string name;
+    char grade;
     
 };
 
@@ -12,7 +15,7 @@ class Student
 int main()
 {
     /* code */
-
+    
     return 0;
 }
 
