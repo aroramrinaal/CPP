@@ -20,7 +20,15 @@ class Student
 
 class Circle
 {
-    
+    public:
+    double radius;
+    string color;
+    void getRadius(){
+        cout<<radius;
+    }
+    double getArea(double radius){
+        return radius*radius*(3.14);
+    }
 };
 
 
