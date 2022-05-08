@@ -20,11 +20,21 @@ class Person
    string sex;
 };
 
+class Employee : public Person
+{
+    public:
+    void employeeName(){
+        cout<<name;
+    }
+};
+
 
 
 int main()
 {
     /* code */
+    Employee obj1;
+    obj1.employeeName();
     return 0;
 }
 
