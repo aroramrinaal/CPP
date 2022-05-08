@@ -7,7 +7,7 @@ class Circle
 {
     public:
     Circle(){
-        radius = 10;
+        radius = 0;
         color = "blue";
     }
     double radius;
