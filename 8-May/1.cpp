@@ -11,11 +11,7 @@ class Auto_Mobile
 };
 
 class Car : public Auto_Mobile
-{
-    public:
-    
-};
-
+{};
 
 int main()
 {
