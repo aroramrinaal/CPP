@@ -16,8 +16,6 @@ class Student
     }
 };
 
-
-
 class Circle
 {
     public:
@@ -30,6 +28,7 @@ class Circle
         return radius*radius*(3.14);
     }
 };
+
 int main()
 {
     /* code */
