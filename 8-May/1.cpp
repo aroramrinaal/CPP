@@ -7,14 +7,15 @@ class Circle
 {
     public:
     Circle(){
-        radius = 7;
-        color = "red";
+        radius = 10;
+        color = "blue";
     }
     double radius;
     string color;
     void getRadius(){
-        cout<<radius;
+        cout<<radius<<endl;
     }
+    void getColor(){cout<<color<<endl;}
     double getArea();
 };
 
@@ -27,8 +28,9 @@ double Circle :: getArea(){
 int main()
 {
     /* code */
-    Circle c;
-    c.getRadius();
+    Circle c1;
+    c1.getRadius();
+    c1.getColor();
     return 0;
 }
 
