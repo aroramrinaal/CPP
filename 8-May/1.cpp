@@ -8,6 +8,8 @@ class Student
    public:
    string name;
    int age;
+   string gender;
+   private:
    bool pass_or_fail;
 };
 
