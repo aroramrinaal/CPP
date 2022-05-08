@@ -35,14 +35,8 @@ class Circle
 int main()
 {
     /* code */
-    Student paul;
-    Student peter;
-    paul.name = "Paul Lee";
-    paul.grade = 3.5;
-    peter.name = "Peter Tan";
-    peter.grade = 3.9;
-    paul.getName();
-    peter.getName();
+    Circle c1;
+    c1.radius = 
     return 0;
 }
 
