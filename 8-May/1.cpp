@@ -8,8 +8,17 @@ class Circle
 {
     public:
     double radius;
+    string color;
     void getRadius();
     double getArea();
+    void display(){
+        cout<<"Radius:"<<radius<<endl;
+        cout<<"Color:"<<color<<endl;
+    }
+    Circle(){
+        radius = 7;
+        color = "Red";
+    }
 };
 
 void Circle :: getRadius(){
