@@ -30,7 +30,14 @@ class Circle
         return radius*radius*(3.14);
     }
 };
-
+int main()
+{
+    /* code */
+    Circle c1;
+    c1.radius = 7;
+    cout<<c1.getArea();
+    return 0;
+}
 
 class Person
 {
@@ -38,15 +45,5 @@ class Person
     string name;
     int age;
 };
-int main()
-{
-    /* code */
-    Person obj;
-    cout<<"enter a name:\n";
-    cin>>obj.name;
-    cout<<"enter your age:\n";
-    cin>>obj.age;
-    cout<<obj.name<<":"<<obj.age<<endl;
-    return 0;
-}
+
 
