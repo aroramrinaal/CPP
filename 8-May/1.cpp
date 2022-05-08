@@ -7,7 +7,8 @@ class Circle
 {
     public:
     Circle(){
-        radisu = 7
+        radius = 7;
+        color = "red";
     }
     double radius;
     string color;
@@ -26,7 +27,8 @@ double Circle :: getArea(){
 int main()
 {
     /* code */
-
+    Circle c;
+    c.getRadius();
     return 0;
 }
 
