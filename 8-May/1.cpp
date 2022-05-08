@@ -4,21 +4,25 @@
 using namespace std;
 
 
-class Auto_Mobile
+class Person
 {
     public:
-
+    string name;
+    int age;
+    void getNameAndGreet();
 };
 
-class Car : public Auto_Mobile
-{
-    public:
-    
-};
+void Person :: getNameAndGreet(){
+    cout<<"enter name:"<<endl;
+    cin>>name;
+    cout<<"Hello "<<name<<endl;
+}
 
 int main()
 {
     /* code */
+    Person obj1;
+    obj1.getNameAndGreet();
     return 0;
 }
 
