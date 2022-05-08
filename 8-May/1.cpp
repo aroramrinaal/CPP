@@ -6,23 +6,25 @@ using namespace std;
 
 class Person
 {
-    public:
-    string name;
-    int age;
-    void getNameAndGreet();
+   protected:
+   char name[50];
+   public:
+   void getData(){
+       cout<<"Enter Name:"<<endl;
+       cin>>name;
+   }
+   void display(){
+       cout<<"Name:"<<name<<endl;
+   }
+   private:
+   string sex;
 };
 
-void Person :: getNameAndGreet(){
-    cout<<"enter name:"<<endl;
-    cin>>name;
-    cout<<"Hello "<<name<<endl;
-}
+
 
 int main()
 {
     /* code */
-    Person obj1;
-    obj1.getNameAndGreet();
     return 0;
 }
 
