@@ -8,7 +8,12 @@ class Student
     public:
     string name;
     char grade;
-    
+    void getName(){
+        cout<<name;
+    }
+    void printGrade(){
+        
+    }
 };
 
 
