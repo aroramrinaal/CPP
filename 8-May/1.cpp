@@ -6,6 +6,9 @@ using namespace std;
 class Circle
 {
     public:
+    Circle(){
+        
+    }
     double radius;
     string color;
     void getRadius(){
