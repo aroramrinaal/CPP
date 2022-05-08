@@ -7,9 +7,9 @@ class Student
 {
     public:
     string name;
-    string grade;
+    double grade;
     void getName(){
-        cout<<name;
+        cout<<name<<endl;
     }
     void printGrade(){
         cout<<grade;
@@ -20,9 +20,14 @@ class Student
 int main()
 {
     /* code */
-    Student obj1;
-    obj1.grade = "A";
-    obj1.printGrade();
+    Student paul;
+    Student peter;
+    paul.name = "Paul Lee";
+    paul.grade = 3.5;
+    peter.name = "Peter Tan";
+    peter.grade = 3.9;
+    paul.getName();
+    peter.getName();
     return 0;
 }
 
