@@ -20,7 +20,7 @@ class Person
    string sex;
 };
 
-class Employee : public Person
+class Employee : private Person
 {
     public:
     void employeeName(){
@@ -30,10 +30,15 @@ class Employee : public Person
 
 
 
+class Teacher : public Employee
+{
+
+};
+
 int main()
 {
     /* code */
-    Person obj1;
+    Employee obj1;
     obj1.getData();
     // Employee obj2;
     // obj2.employeeName();
