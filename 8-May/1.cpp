@@ -34,6 +34,6 @@ int main()
     Circle c1;
         // c1.radius = 7;
         // cout<<c1.getArea();
-        c1.display();
+    c1.display();
     return 0;
 }
