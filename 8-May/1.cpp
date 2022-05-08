@@ -9,9 +9,9 @@ class StudentMarks
     void displayMarks();
     int maths;
     int science;
-    StudentMarks(){
-        maths = 0;
-        science =0;
+    StudentMarks(int mark1,int mark2){
+        maths = mark1;
+        science =mark2;
     }
 };
 
@@ -23,7 +23,7 @@ void StudentMarks ::displayMarks(){
 int main()
 {
     /* code */
-    StudentMarks m;
+    StudentMarks m(90,85);
     m.displayMarks();
     return 0;
 }
