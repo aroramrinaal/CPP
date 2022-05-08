@@ -20,8 +20,7 @@ class Class1
 int main()
 {
     /* code */
-    Class1 obj1;
-    obj1.function2();
+    
     return 0;
 }
 
