@@ -14,6 +14,7 @@ class Circle
     void display(){
         cout<<"Radius:"<<radius<<endl;
         cout<<"Color:"<<color<<endl;
+        cout<<"Area:"<<getArea()<<endl;
     }
     Circle(){
         radius = 7;
