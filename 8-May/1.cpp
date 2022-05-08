@@ -9,7 +9,7 @@ class Student
    string name;
    int age;
    string gender;
-   private:
+   protected:
    bool pass_or_fail;
 };
 
