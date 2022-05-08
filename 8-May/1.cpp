@@ -32,12 +32,21 @@ class Circle
 };
 
 
+class Person
+{
+    public:
+    string name;
+    int age;
+};
 int main()
 {
     /* code */
-    Circle c1;
-    c1.radius = 7;
-    cout<<c1.getArea();
+    Person obj;
+    cout<<"enter a name:\n";
+    cin>>obj.name;
+    cout<<"enter your age:\n";
+    cin>>obj.age;
+    cout<<obj.name<<":"<<obj.age<<endl;
     return 0;
 }
 
