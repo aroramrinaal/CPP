@@ -1,7 +1,4 @@
 // Object-Oriented Programming
-
-
-
 #include<iostream>
 using namespace std;
 
