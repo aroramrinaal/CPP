@@ -3,34 +3,28 @@
 using namespace std;
 
 
-class Circle
+class StudentMarks
 {
     public:
-    Circle(){
-        radius = 0;
-        color = "blue";
+    void displayMarks();
+    int maths;
+    int science;
+    StudentMarks(){
+        maths = 0;
+        science =0;
     }
-    double radius;
-    string color;
-    void getRadius(){
-        cout<<radius<<endl;
-    }
-    void getColor(){cout<<color<<endl;}
-    double getArea();
 };
 
-double Circle :: getArea(){
-    return radius*radius*(3.14);
+void StudentMarks ::displayMarks(){
+    cout<<"Maths:"<<maths<<endl;
+    cout<<"Science:"<<science<<endl;
 }
-
-
 
 int main()
 {
     /* code */
-    Circle c1;
-    c1.getRadius();
-    c1.getColor();
+    StudentMarks m;
+    m.displayMarks();
     return 0;
 }
 
