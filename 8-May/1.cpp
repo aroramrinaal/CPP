@@ -17,6 +17,13 @@ class Student
 };
 
 
+
+class Circle
+{
+    
+};
+
+
 int main()
 {
     /* code */
