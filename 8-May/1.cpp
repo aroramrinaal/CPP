@@ -5,6 +5,7 @@ using namespace std;
 
 class Student
 {
+   public:
    string name;
    int age;
    bool pass_or_fail;
@@ -13,6 +14,4 @@ class Student
 int main()
 {
     /* code */
-    
-    return 0;
 }
