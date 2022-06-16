@@ -1,9 +1,6 @@
 #include<iostream>
 using namespace std;
-
-int main()
-{
-    /* code */
-    cout<<"Hello World";
+int main(){
+    
     return 0;
 }
