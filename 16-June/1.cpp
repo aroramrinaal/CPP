@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
+#include<string>
 int main(){
-    int a,b,c;
-    double x;
-    int sum;
-    char my_char;
-    return 0;
+  string name;
+  std::cout<<"Enter name:"<<std::endl;
+  std::cin>>name;
+  std::cout<<"Hello,"<<name<<std::endl;
+  return 0;
 }
